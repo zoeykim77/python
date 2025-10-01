@@ -80,7 +80,7 @@ else:
 if "grades" not in customer.keys():
     if customer['point'] >=2000:
         customer['grade'] = 'vip'
-    elif custmoer['point'] >=1000:
+    elif customer['point'] >=1000:
         customer['grade'] ='gold'
     
 print(customer)

@@ -4,10 +4,11 @@
 # 2. 만약 같다면 앞쪽이 '큰' 순서대로 정렬하시오.
 nums = [[70, 30], [70, 10], [20, 30], [50, 90], [40, 80], [80, 90], [10, 60]]
 
-
+nums.sort(key=lambda x:(x[1],-x[0]))
+print(nums)
 
 # 정답 1
 new_nums = sorted(nums, key=lambda element:element[1]) 
 print(new_nums) #오름차순이 기본
 # 정답 2 : -elment 안됨???
-new_nums = sorted(nums, key=lambda element:element[1], -element[0])
+new_nums = sorted(nums, key=lambda element:(element[1], -element[0]))

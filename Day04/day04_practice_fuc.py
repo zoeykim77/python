@@ -32,7 +32,7 @@ def len_func(container): # 길이값 len는 여러값이 존재하는 컨테이�
 #    여러개 값이 존재하는 입력
     size = 0 # 세기 위한 변수 생성 
     for n in container: # 컨테이너 자료기에, 순회가능 for 문 
-      size+=1 
+        size+=1 
     return size #return값엔 = 안붙인다./ return 위치 중요!(탭!)
 
 # 호출(call)

@@ -11,6 +11,15 @@ students = [
 # 리스트 내부 각 딕셔너리의 grade 키의 값을 활용해서 학년별로 점수를 모으고, 학년별 평균을 구하세요.
 # 여기에 코드를 작성하세요
 
+scores = {}
+
+for i in students:
+    if i["grade"] not in scores:
+    scores["grade"]["score"]
+
+print(scores)
+    
+
 # 힌트
 # 1. 빈 딕셔너리를 만드세요. (key는 grade 값, value는 score 값을 저장할 리스트가 됩니다.)
 # 2. for 반복문을 사용해서 각 학생의 데이터를 순회하세요.

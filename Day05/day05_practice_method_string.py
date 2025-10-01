@@ -42,9 +42,9 @@ print(email.split('@')[0]) #@ 구분한 리스트-> 첫번째 값만
  
 # 방법2 - 슬라이싱 활용 
 idx = email.find('@') 
-print(email[:idx])
+print(email[:idx]) #간단하게!
 
 # 오답 - why????
-print(email.rstrip("@"))
+print(email.rstrip("@")) #앞이나 뒤에 @가 있으면 삭제. 
 
 # 마찬가지로 기존에서 구분만 해주면 재할당 불요?

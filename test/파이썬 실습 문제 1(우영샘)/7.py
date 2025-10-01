@@ -7,5 +7,10 @@ text_data = "python pandas data analysis visualization machine learning data sci
 # 딕셔너리를 활용해서 리스트의 각 요소를 카운팅하세요.
 # 여기에 코드를 작성하세요
 
+text_cnt = {}
+
+print(text_data.split(" "))
+
+
 # 출력 예시
 # {'python': 2, 'pandas': 1, 'data': 2, 'analysis': 1, 'visualization': 1, 'machine': 1, 'learning': 1, 'science': 1, 'programming': 1} 

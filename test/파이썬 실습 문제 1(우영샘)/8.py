@@ -7,6 +7,24 @@ celsius_temps = [5, 15, 22, 30, 8, 18, 35, 12, 28, 3]
 # for문을 사용해서 각 온도를 화씨로 변환하고, if문을 사용해서 온도를 구간별로 분류하세요.
 # 여기에 코드를 작성하세요.
 
+
+new_temps = []
+tems_list = []
+
+for i in celsius_temps:
+   new_temps.append((i* 9/5 ) + 32)
+
+for i in new_temps:
+   if i <10:
+    tems_list.append('추위')
+   elif 10 <= i <= 25:
+       tems_list.append('보통')
+   elif i>25:
+       tems_list.append('더위')
+
+print(new_temps, tems_list)
+
+
 # 힌트
 # 1. 빈 리스트 두 개를 만들어서 화씨 온도와 온도 분류를 저장하세요
 # 2. for문으로 celsius_temps의 각 온도를 순회하세요
